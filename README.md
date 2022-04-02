@@ -7,7 +7,7 @@ I thought it would be fun to make a real app, so I made a working Notepad app. I
     Qt Creator version: 7.0.0
 
 
-![alt text](notepadScreen.png)
+![alt text](notepadScreen.PNG)
     
 
 

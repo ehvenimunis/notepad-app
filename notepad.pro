@@ -1,3 +1,5 @@
+include(rasterwindow/rasterwindow.pri)
+
 TEMPLATE = app
 TARGET = notepad
 

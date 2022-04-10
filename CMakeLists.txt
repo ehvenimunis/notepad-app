@@ -21,8 +21,12 @@ find_package(Qt6 COMPONENTS Widgets)
 find_package(Qt6 COMPONENTS PrintSupport) # special case: add
 
 qt_add_executable(notepad
+    ../rasterwindow/rasterwindow.cpp ../rasterwindow/rasterwindow.h
     main.cpp
     notepad.cpp notepad.h notepad.ui
+)
+target_include_directories(notepad PUBLIC # special case
+    ../rasterwindow
 )
 set_target_properties(notepad PROPERTIES
     WIN32_EXECUTABLE TRUE

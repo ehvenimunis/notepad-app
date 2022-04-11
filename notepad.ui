@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>722</width>
-    <height>574</height>
+    <width>806</width>
+    <height>566</height>
    </rect>
   </property>
   <property name="cursor">
@@ -30,6 +30,9 @@
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
     <item>
      <widget class="QTextEdit" name="textEdit">
       <property name="maximumSize">
@@ -47,7 +50,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>722</width>
+     <width>806</width>
      <height>25</height>
     </rect>
    </property>

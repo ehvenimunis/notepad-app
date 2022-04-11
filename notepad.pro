@@ -9,10 +9,12 @@ qtHaveModule(printsupport): QT += printsupport
 requires(qtConfig(fontdialog))
 
 SOURCES += \
+    analogclockwindow.cpp \
     main.cpp\
     notepad.cpp
 
-HEADERS += notepad.h
+HEADERS += notepad.h \
+    analogclockwindow.h
 
 FORMS += notepad.ui
 

@@ -4,29 +4,20 @@
 ****************************************************************************/
 
 #include "notepad.h"
-#include "rasterwindow.h"
+#include "analogclockwindow.h"
 #include <QApplication>
-#include <QtGui>
-
-
-class AnalogClockWindow : public RasterWindow
-{
-public:
-    AnalogClockWindow();
-
-protected:
-    //void timerEvent(QTimerEvent *) override;
-    //void render(QPainter *p) override;
-
-private:
-    int m_timerId;
-};
 
 int main(int argc, char *argv[])
 {
+    QGuiApplication app(argc, argv);
     QApplication EditorApp(argc, argv);
+
     Notepad Editor;
     Editor.show();
 
+    AnalogClockWindow clock;
+    clock.show();
+
+    return app.exec();
     return EditorApp.exec();
 }

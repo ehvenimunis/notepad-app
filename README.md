@@ -1,5 +1,5 @@
-# notepad-app
-I thought it would be fun to make a real app, so I made a working Notepad app. I covered Dialogs, Widgets, Drag and Drop Interfaces, Creating / Opening / Saving Files, Menus, Toolbars, Icons, Printing, and much more.
+# notepad-clock-app
+I thought it would be fun to make a real app, so I made a working Notepad Clock app. I covered Dialogs, Widgets, Drag and Drop Interfaces, Creating / Opening / Saving Files, Menus, Toolbars, Icons, Printing, and much more.
 
 ### Environment
 
